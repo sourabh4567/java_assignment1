@@ -61,7 +61,7 @@ class Account {
 
 class UserInterface {
     private static Scanner sc = new Scanner(System.in);
-    private static Account[] accounts = new Account[10]; // store max 100 accounts
+    private static Account[] accounts = new Account[10]; // store max 10 accounts
     private static int accountCount = 0;
     private static int accountNumberSeed = 10; // auto-generate account numbers
 
